@@ -14,7 +14,7 @@ use pocketmine\world\Position;
 use pocketmine\inventory\SimpleInventory;
 use pocketmine\block\inventory\BlockInventory;
 
-abstract class InventoryHelper extends SimpleInventory implements BlockInventory
+class InventoryHelper extends SimpleInventory implements BlockInventory
 {
     protected BaseType $type;
 
